@@ -11,7 +11,7 @@ body{
     align-content: center;
 }
 .card{
-    margin-top: 240px;
+    margin-top: 150px;
     background-color: palevioletred;
     border: none;
     border-radius: 10px;
@@ -22,6 +22,9 @@ body{
     align-items: center;
     flex-direction: column;
     position: relative;
+    box-shadow: -3px 2px 33px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 2px 33px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 2px 33px 3px rgba(0,0,0,0.75);
 }
 h1{
     color:#a3006d;
